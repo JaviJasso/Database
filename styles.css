@@ -1,0 +1,19 @@
+h1 {
+  text-align: -webkit-center;
+}
+
+.companyDirectory {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.companyDirectory div {
+  width: calc(25% - 1em);
+  margin-right: 16px;
+}
+
+img {
+  height: 300px;
+  width: auto;
+  flex-wrap: wrap;
+}
